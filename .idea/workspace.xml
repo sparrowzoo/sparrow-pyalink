@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sparrow-pyalink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sparrow-pyalink.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reame.md" beforeDir="false" afterPath="$PROJECT_DIR$/reame.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/com/sparrow/basic/System.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/com/sparrow/basic/System.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/AlinkDemo.ipynb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="0" />
+              <selected id="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb">
+        <entry file="file://$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/sparrow/basic/System.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="1" />
@@ -37,22 +51,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="e#958#972#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/reame.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="379">
+                <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="-22">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/pyflink-shell.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -84,17 +107,18 @@
         <option value="$PROJECT_DIR$/source/com/sparrow/pyalink/als.ipynb" />
         <option value="$PROJECT_DIR$/source/com/sparrow/pyalink/alinkDemo.ipynb" />
         <option value="$PROJECT_DIR$/source/com/sparrow/pyalink/AlinkDemo.ipynb" />
-        <option value="$PROJECT_DIR$/reame.md" />
         <option value="$PROJECT_DIR$/bin/pyflink-shell.sh" />
-        <option value="$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb" />
         <option value="$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py" />
+        <option value="$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb" />
+        <option value="$PROJECT_DIR$/reame.md" />
+        <option value="$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="27" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -102,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +162,7 @@
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
@@ -149,10 +172,43 @@
               <item name="sparrow" type="462c0819:PsiDirectoryNode" />
               <item name="pyflink" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.8" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +217,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="sparrow-pyalink" sdk-home="/usr/local/bin/python2.7">
+        <option name="mySdkHome" value="/usr/local/bin/python2.7" />
+        <option name="myModuleName" value="sparrow-pyalink" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,14 +267,14 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="WordCountOrigin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="WordCountOrigin" type="PythonConfigurationType" factoryName="Python">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\python-3.7.4\python.exe" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/com/sparrow/pyflink" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -225,57 +289,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="alinkDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sparrow-pyalink" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\python-3.7.4\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/com/sparrow/pyalink" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/com/sparrow/pyalink/alinkDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sparrow-pyalink" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.WordCountOrigin" />
-        <item itemvalue="Python.alinkDemo" />
-        <item itemvalue="Python.code" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Jupyter Notebook.sparrow-pyalink" />
+      <item itemvalue="Python.WordCountOrigin" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -298,15 +315,15 @@
     <option name="totallyTimeSpent" value="18184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="945" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20347957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15430982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35434413" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48381603" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35301206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4373494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -314,7 +331,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.75085324" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41686746" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32879046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,24 +345,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/com/__init__.py" />
-    <entry file="file://D:/python-3.7.4/Lib/tokenize.py">
+    <entry file="file://D:/python-3.7.4/Lib/tokenize.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/95416421/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/alinkDemo.py" />
+    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/als.ipynb" />
+    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/AlinkDemo.ipynb" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py" />
+    <entry file="file://$PROJECT_DIR$/bin/pyflink-shell.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="447" column="8" lean-forward="true" selection-start-line="447" selection-start-column="8" selection-end-line="447" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/95416421/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="4" />
+        <state>
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="6" />
         </state>
       </provider>
     </entry>
@@ -356,53 +372,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/alinkDemo.py" />
+    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reame.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="117">
-            <caret line="49" column="92" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
+          <first_editor relative-caret-position="379">
+            <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pyflink-shell.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/als.ipynb" />
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/AlinkDemo.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#958#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <selected id="4" />
         </state>
       </provider>
     </entry>

@@ -34,9 +34,11 @@ could not install packages due to an EnvironmentError:[WinError 5 ]
 ERROR: Cannot uninstall 'PyYAML'. It is a distutils installed project and thus we cannot accurately
 ```
 加  --ignore-installed PyYAML
-最终安装脚本
-$ pip install pyalink-1.1.0-py3-none-any.whl --ignore-installed PyYAML --user
 
+最终安装脚本
+```
+$ pip install pyalink-1.1.0-py3-none-any.whl --ignore-installed PyYAML --user
+```
 
 REPL
 Read Eval Print Loop
