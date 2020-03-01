@@ -48,4 +48,4 @@ UDF （User-Defined Function）(用户定义函数)
 
 
 https://ci.apache.org/projects/flink/flink-docs-release-1.10/tutorials/python_table_api.html
-python -m pip install apache-flink
+ 
