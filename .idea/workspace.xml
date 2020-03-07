@@ -2,154 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/2python.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/user_listen_count.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/draw/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/draw/math.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/advance/do_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/advance/do_iter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/advance/do_listcompr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/advance/do_slice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/advance/do_yield.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/async/aio_web.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/async/async_hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/async/async_hello2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/async/async_wget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/async/async_wget2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/async/coroutine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/do_for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/do_if.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/do_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/do_print.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/do_while.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/the_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/the_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/the_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/the_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/basic/the_tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/check_bmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/do_base64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_chainmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_collections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_datetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_hashlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_htmlparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_itertools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_sax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/commonlib/use_urllib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/context/do_closing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/context/do_suppress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/context/do_with.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/db/do_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/db/do_sqlalchemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/db/do_sqlite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/do_assert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/do_logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/do_pdb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/do_try.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/err.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/err_logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/err_raise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/err_reraise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/mydict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/mydict2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/debug/mydict_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/function/call_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/function/def_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/function/kw_args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/function/recur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/function/var_args.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/do_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/do_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/do_partial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/do_reduce.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/do_sorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/prime_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/functional/return_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/gui/hello_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/gui/turtle/rect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/gui/turtle/stars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/gui/turtle/tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/io/do_bytesio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/io/do_dir.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/io/do_stringio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/io/use_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/io/use_pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/io/with_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/mail/fetch_mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/mail/send_mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/module/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/do_folk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/do_lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/do_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/do_subprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/multi_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/multi_threading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/pooled_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/task_master.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/task_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/multitask/use_threadlocal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/create_class_on_the_fly.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/orm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/special_call.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/special_getattr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/special_getitem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/special_iter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/special_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/use_enum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/use_metaclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/use_property.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_advance/use_slots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_basic/animals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_basic/attrs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_basic/get_instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_basic/get_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_basic/protected_student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/oop_basic/student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/packages/pil/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/packages/pil/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/packages/pil/use_pil_blur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/packages/pil/use_pil_draw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/packages/pil/use_pil_resize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/regex/regex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/socket/do_tcp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/socket/udp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/socket/udp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/test/dict_doctest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/test/dict_unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/web/do_flask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/web/do_wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/web/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/web/mvc/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/web/mvc/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/web/mvc/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/samples/web/mvc/templates/signin-ok.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/alink/PythonAlink.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/alink/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/basic/System.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/basic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/binning/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/binning/yelp_visual.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/two_value.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/pyflink/WordCount.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/pyflink/WordCountOrigin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/pyflink/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/pyflink/test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sparrow-pyalink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sparrow-pyalink.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/yelp/yelp_academic_dataset_business.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/yelp/yelp_academic_dataset_review.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/yelp/yelp_academic_dataset_user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/draw/histogram_yelp.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/draw/line.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/draw/line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/binning/fixed.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/binning/quantile.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/binning/yelp_visual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/two_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tools/path.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tools/path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reame.md" beforeDir="false" afterPath="$PROJECT_DIR$/reame.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/com/sparrow/alink/PythonAlink.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/com/sparrow/basic/System.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/basic/hello.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/com/sparrow/pyalink" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/user_listen_count.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/csv/user_listen_count.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/draw/math.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/samples/basic/the_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/samples/basic/the_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/feature/binning/yelp_visual.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/feature/binning/yelp_visual.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/feature/two_value.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/feature/two_value.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,47 +47,12 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/samples/db/do_mysql.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/draw/math.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reame.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2100">
-                <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Setup Script" />
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -229,56 +66,22 @@
   </component>
   <component name="JupyterTrust" id="4c9ac9ab-9af0-4b9d-8ce2-f23e0c87457f">
     <option name="files">
+      <option value="source/draw/histogram_yelp.ipynb" />
+      <option value="source/draw/line.ipynb" />
       <option value="source/sparrow/alink/PythonAlink.ipynb" />
       <option value="source/sparrow/basic/System.ipynb" />
       <option value="source/sparrow/basic/hello.ipynb" />
+      <option value="source/sparrow/feature/binning/fixed.ipynb" />
+      <option value="source/sparrow/feature/binning/quantile.ipynb" />
       <option value="source/sparrow/feature/two_value.ipynb" />
       <option value="source/sparrow/pyflink/WordCount.ipynb" />
       <option value="source/sparrow/pyflink/test.ipynb" />
+      <option value="source/sparrow/toos/path.ipynb" />
     </option>
   </component>
   <component name="ProjectId" id="1YYlRFP8gXnkaRaoer6wKanHxAc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="draw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -287,9 +90,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/sparrow/alink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/yulp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
@@ -303,33 +107,22 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/csv" />
+      <recent name="$PROJECT_DIR$/source/sparrow/basic" />
+      <recent name="$PROJECT_DIR$/source/sparrow/alink" />
+      <recent name="$PROJECT_DIR$/source/sparrow" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/yulp" />
       <recent name="$PROJECT_DIR$/source/sparrow/alink" />
       <recent name="$PROJECT_DIR$/source/sparrow/basic" />
       <recent name="$PROJECT_DIR$" />
       <recent name="D:\workspace\sparrow\sparrow-pyalink" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/sparrow/basic" />
-      <recent name="$PROJECT_DIR$/source/sparrow/alink" />
-      <recent name="$PROJECT_DIR$/source/sparrow" />
-      <recent name="$PROJECT_DIR$/source/sparrow/pyflink" />
-      <recent name="$PROJECT_DIR$/source" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.hello">
+  <component name="RunManager" selected="Python.the_list">
     <configuration name="WordCountOrigin" type="PythonConfigurationType" factoryName="Python">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -360,12 +153,100 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/draw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/basic/hello.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/draw/histogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/draw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/draw/line.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/tools/path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="the_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/samples/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/samples/basic/the_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="two_value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/feature" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/feature/two_value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,7 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hello" />
+        <item itemvalue="Python.the_list" />
+        <item itemvalue="Python.two_value" />
+        <item itemvalue="Python.histogram" />
+        <item itemvalue="Python.path" />
+        <item itemvalue="Python.line" />
       </list>
     </recent_temporary>
   </component>
@@ -403,45 +288,26 @@
       <workItem from="1583164206211" duration="643000" />
       <workItem from="1583164888453" duration="3609000" />
       <workItem from="1583169083849" duration="2371000" />
-      <workItem from="1583551334537" duration="2689000" />
+      <workItem from="1583551334537" duration="28454000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1583554280383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583554280383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35434413" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48381603" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.051107325" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32879046" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="146" key="#WordCountOrigin" timestamp="1583127507384">
@@ -452,57 +318,78 @@
       <screen x="0" y="0" width="1680" height="971" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.971@0.0.1680.971" timestamp="1583163394164" />
+    <state x="224" y="45" key="CommitChangelistDialog2" timestamp="1583589895367">
+      <screen x="0" y="23" width="1680" height="948" />
+    </state>
+    <state x="224" y="45" key="CommitChangelistDialog2/0.23.1680.945@0.23.1680.945" timestamp="1583554279967" />
+    <state x="224" y="45" key="CommitChangelistDialog2/0.23.1680.948@0.23.1680.948" timestamp="1583589895367" />
     <state x="594" y="297" key="EnvironmentVariablesDialog" timestamp="1583163367635">
       <screen x="0" y="0" width="1680" height="971" />
     </state>
     <state x="594" y="297" key="EnvironmentVariablesDialog/0.0.1680.971@0.0.1680.971" timestamp="1583163367635" />
-    <state width="1638" height="356" key="GridCell.Tab.0.bottom" timestamp="1583167434937">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="415" key="GridCell.Tab.0.bottom" timestamp="1583588096912">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="412" key="GridCell.Tab.0.bottom/0.0.1680.971@0.0.1680.971" timestamp="1583164053400" />
     <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.974@0.0.1680.974" timestamp="1583158523244" />
+    <state width="1638" height="166" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1583578649846" />
+    <state width="1638" height="415" key="GridCell.Tab.0.bottom/0.23.1680.948@0.23.1680.948" timestamp="1583588096912" />
     <state width="1638" height="356" key="GridCell.Tab.0.bottom/0.23.1680.951@0.23.1680.951" timestamp="1583167434937" />
-    <state width="1638" height="356" key="GridCell.Tab.0.center" timestamp="1583167434936">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="415" key="GridCell.Tab.0.center" timestamp="1583588096911">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="412" key="GridCell.Tab.0.center/0.0.1680.971@0.0.1680.971" timestamp="1583164053398" />
     <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.974@0.0.1680.974" timestamp="1583158523243" />
+    <state width="1638" height="166" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1583578649845" />
+    <state width="1638" height="415" key="GridCell.Tab.0.center/0.23.1680.948@0.23.1680.948" timestamp="1583588096911" />
     <state width="1638" height="356" key="GridCell.Tab.0.center/0.23.1680.951@0.23.1680.951" timestamp="1583167434936" />
-    <state width="1638" height="356" key="GridCell.Tab.0.left" timestamp="1583167434936">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="415" key="GridCell.Tab.0.left" timestamp="1583588096910">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="412" key="GridCell.Tab.0.left/0.0.1680.971@0.0.1680.971" timestamp="1583164053397" />
     <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.974@0.0.1680.974" timestamp="1583158523242" />
+    <state width="1638" height="166" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1583578649844" />
+    <state width="1638" height="415" key="GridCell.Tab.0.left/0.23.1680.948@0.23.1680.948" timestamp="1583588096910" />
     <state width="1638" height="356" key="GridCell.Tab.0.left/0.23.1680.951@0.23.1680.951" timestamp="1583167434936" />
-    <state width="1638" height="356" key="GridCell.Tab.0.right" timestamp="1583167434937">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="415" key="GridCell.Tab.0.right" timestamp="1583588096911">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="412" key="GridCell.Tab.0.right/0.0.1680.971@0.0.1680.971" timestamp="1583164053399" />
     <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.974@0.0.1680.974" timestamp="1583158523243" />
+    <state width="1638" height="166" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1583578649846" />
+    <state width="1638" height="415" key="GridCell.Tab.0.right/0.23.1680.948@0.23.1680.948" timestamp="1583588096911" />
     <state width="1638" height="356" key="GridCell.Tab.0.right/0.23.1680.951@0.23.1680.951" timestamp="1583167434937" />
-    <state width="1638" height="361" key="GridCell.Tab.1.bottom" timestamp="1583164883875">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="166" key="GridCell.Tab.1.bottom" timestamp="1583587410811">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="419" key="GridCell.Tab.1.bottom/0.0.1680.971@0.0.1680.971" timestamp="1583164053394" />
     <state width="1638" height="430" key="GridCell.Tab.1.bottom/0.0.1680.974@0.0.1680.974" timestamp="1583128439680" />
+    <state width="1638" height="166" key="GridCell.Tab.1.bottom/0.23.1680.945@0.23.1680.945" timestamp="1583578649743" />
+    <state width="1638" height="166" key="GridCell.Tab.1.bottom/0.23.1680.948@0.23.1680.948" timestamp="1583587410811" />
     <state width="1638" height="361" key="GridCell.Tab.1.bottom/0.23.1680.951@0.23.1680.951" timestamp="1583164883875" />
-    <state width="1638" height="361" key="GridCell.Tab.1.center" timestamp="1583164883873">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="166" key="GridCell.Tab.1.center" timestamp="1583587410810">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="419" key="GridCell.Tab.1.center/0.0.1680.971@0.0.1680.971" timestamp="1583164053393" />
     <state width="1638" height="430" key="GridCell.Tab.1.center/0.0.1680.974@0.0.1680.974" timestamp="1583128439679" />
+    <state width="1638" height="166" key="GridCell.Tab.1.center/0.23.1680.945@0.23.1680.945" timestamp="1583578649742" />
+    <state width="1638" height="166" key="GridCell.Tab.1.center/0.23.1680.948@0.23.1680.948" timestamp="1583587410810" />
     <state width="1638" height="361" key="GridCell.Tab.1.center/0.23.1680.951@0.23.1680.951" timestamp="1583164883873" />
-    <state width="1638" height="361" key="GridCell.Tab.1.left" timestamp="1583164883872">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="166" key="GridCell.Tab.1.left" timestamp="1583587410809">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="419" key="GridCell.Tab.1.left/0.0.1680.971@0.0.1680.971" timestamp="1583164053392" />
     <state width="1638" height="430" key="GridCell.Tab.1.left/0.0.1680.974@0.0.1680.974" timestamp="1583128439678" />
+    <state width="1638" height="166" key="GridCell.Tab.1.left/0.23.1680.945@0.23.1680.945" timestamp="1583578649742" />
+    <state width="1638" height="166" key="GridCell.Tab.1.left/0.23.1680.948@0.23.1680.948" timestamp="1583587410809" />
     <state width="1638" height="361" key="GridCell.Tab.1.left/0.23.1680.951@0.23.1680.951" timestamp="1583164883872" />
-    <state width="1638" height="361" key="GridCell.Tab.1.right" timestamp="1583164883874">
-      <screen x="0" y="23" width="1680" height="951" />
+    <state width="1638" height="166" key="GridCell.Tab.1.right" timestamp="1583587410810">
+      <screen x="0" y="23" width="1680" height="948" />
     </state>
     <state width="1638" height="419" key="GridCell.Tab.1.right/0.0.1680.971@0.0.1680.971" timestamp="1583164053393" />
     <state width="1638" height="430" key="GridCell.Tab.1.right/0.0.1680.974@0.0.1680.974" timestamp="1583128439679" />
+    <state width="1638" height="166" key="GridCell.Tab.1.right/0.23.1680.945@0.23.1680.945" timestamp="1583578649743" />
+    <state width="1638" height="166" key="GridCell.Tab.1.right/0.23.1680.948@0.23.1680.948" timestamp="1583587410810" />
     <state width="1638" height="361" key="GridCell.Tab.1.right/0.23.1680.951@0.23.1680.951" timestamp="1583164883874" />
     <state x="349" y="180" key="SettingsEditor" timestamp="1583551728803">
       <screen x="0" y="23" width="1680" height="942" />
@@ -512,6 +399,10 @@
     <state x="349" y="180" key="SettingsEditor/0.23.1680.942@0.23.1680.942" timestamp="1583551728803" />
     <state x="349" y="182" key="SettingsEditor/0.23.1680.948@0.23.1680.948" timestamp="1583164520549" />
     <state x="349" y="182" key="SettingsEditor/0.23.1680.951@0.23.1680.951" timestamp="1583167115389" />
+    <state x="440" y="234" key="Vcs.Push.Dialog.v2" timestamp="1583554289780">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="440" y="234" key="Vcs.Push.Dialog.v2/0.23.1680.945@0.23.1680.945" timestamp="1583554289780" />
     <state x="519" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1583551335101">
       <screen x="0" y="23" width="1680" height="942" />
     </state>
@@ -519,103 +410,39 @@
     <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.0.1680.974@0.0.1680.974" timestamp="1583158165103" />
     <state x="519" y="328" key="com.intellij.ide.util.TipDialog/0.23.1680.942@0.23.1680.942" timestamp="1583551335101" />
     <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.951@0.23.1680.951" timestamp="1583127408768" />
+    <state x="522" y="292" key="git4idea.merge.GitPullDialog" timestamp="1583554653542">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="522" y="292" key="git4idea.merge.GitPullDialog/0.23.1680.945@0.23.1680.945" timestamp="1583554653542" />
     <state x="505" y="149" width="670" height="676" key="search.everywhere.popup" timestamp="1583169448379">
       <screen x="0" y="23" width="1680" height="951" />
     </state>
     <state x="505" y="149" width="670" height="676" key="search.everywhere.popup/0.23.1680.951@0.23.1680.951" timestamp="1583169448379" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/sparrow/tools/path.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/sparrow/tools/path.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$the_list.coverage" NAME="the_list Coverage Results" MODIFIED="1583588096903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/samples/basic" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$two_value.coverage" NAME="two_value Coverage Results" MODIFIED="1583560046790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/feature" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$line.coverage" NAME="line Coverage Results" MODIFIED="1583555984259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/draw" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$histogram.coverage" NAME="histogram Coverage Results" MODIFIED="1583559982263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/draw" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$math.coverage" NAME="math Coverage Results" MODIFIED="1583554738440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/draw" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583163939892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$hello.coverage" NAME="hello Coverage Results" MODIFIED="1583167417061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/basic" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com/__init__.py" />
-    <entry file="file://D:/python-3.7.4/Lib/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="447" column="8" lean-forward="true" selection-start-line="447" selection-start-column="8" selection-end-line="447" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/95416421/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/alinkDemo.py" />
-    <entry file="file://$PROJECT_DIR$/bin/pyflink-shell.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/als.ipynb" />
-    <entry file="file://$PROJECT_DIR$/pyalink-1.1.0-py3-none-any.whl">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/alink/PythonAlink.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#958#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reame.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2100">
-            <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/basic/System.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/db/do_mysql.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/draw/math.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$path.coverage" NAME="path Coverage Results" MODIFIED="1583559595377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tools" />
   </component>
 </project>

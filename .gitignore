@@ -131,3 +131,5 @@ dmypy.json
 .pyre/
 
 将删除 venv/
+
+.idea
