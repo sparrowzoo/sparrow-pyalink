@@ -11,6 +11,7 @@ class MyObject(object):
 
 obj = MyObject()
 
+
 print('hasattr(obj, \'x\') =', hasattr(obj, 'x')) # 有属性'x'吗？
 print('hasattr(obj, \'y\') =', hasattr(obj, 'y')) # 有属性'y'吗？
 setattr(obj, 'y', 19) # 设置一个属性'y'
@@ -23,3 +24,5 @@ print('getattr(obj, \'z\') =',getattr(obj, 'z', 404)) # 获取属性'z'，如果
 f = getattr(obj, 'power') # 获取属性'power'
 print(f)
 print(f())
+
+print(type(obj))

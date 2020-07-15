@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/dssm_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/singleton/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/singleton/model_registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/strategy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/strategy/abstract_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/strategy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/strategy/wide_deep_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/two-tower.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/samples/oop_basic/animals.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/samples/oop_basic/animals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/samples/oop_basic/attrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/samples/oop_basic/attrs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/basic/hello.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/basic/hello.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/feature/binning/yelp_visual.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/feature/binning/yelp_visual.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/feature/two_value.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/feature/two_value.ipynb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/source/com/" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +47,13 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sparrow_pyalink$alinkDemo.coverage" NAME="alinkDemo Coverage Results" MODIFIED="1582956546172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyalink" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$animals.coverage" NAME="animals Coverage Results" MODIFIED="1594785268011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/samples/oop_basic" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583033562692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$sparrow_pyalink.coverage" NAME="sparrow-pyalink Coverage Results" MODIFIED="1592277513502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$main.coverage" NAME="main Coverage Results" MODIFIED="1594793586592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/strategy" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$code.coverage" NAME="code Coverage Results" MODIFIED="1582906969676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$math.coverage" NAME="math Coverage Results" MODIFIED="1592274436254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/draw" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$attrs.coverage" NAME="attrs Coverage Results" MODIFIED="1594788603388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/samples/oop_basic" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,32 +71,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="java_gateway.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/python-3.7.4/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="37">
+              <caret line="311" selection-start-line="311" selection-end-line="311" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sparklr验证.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reame.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reame.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2520">
-                <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/wide_deep_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/abstract_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/singleton/model_registry.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,25 +142,30 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>JAVA_RUN</find>
+      <find>return</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/samples/oop_basic/attrs.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/strategy/model_lr.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/strategy/abstract_model.py" />
+        <option value="$PROJECT_DIR$/source/samples/oop_basic/animals.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/strategy/wide_deep.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/singleton/model_registry.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/strategy/wide_deep_model.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/strategy/main.py" />
+      </list>
+    </option>
   </component>
-  <component name="JupyterTrust" id="4c9ac9ab-9af0-4b9d-8ce2-f23e0c87457f">
+  <component name="JupyterTrust" id="bf30181f-b656-49c1-b50d-1cd4bf21c156">
     <option name="files">
-      <option value="source/sparrow/alink/PythonAlink.ipynb" />
-      <option value="source/sparrow/basic/System.ipynb" />
-      <option value="source/sparrow/basic/hello.ipynb" />
-      <option value="source/sparrow/feature/two_value.ipynb" />
-      <option value="source/sparrow/pyflink/WordCount.ipynb" />
-      <option value="source/sparrow/pyflink/test.ipynb" />
+      <option value="source\sparrow\two-tower.ipynb" />
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -106,14 +174,11 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="9" />
-    <option name="width" value="1063" />
-    <option name="height" value="728" />
+    <option name="x" value="172" />
+    <option name="y" value="327" />
+    <option name="width" value="1346" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectId" id="1YYlRFP8gXnkaRaoer6wKanHxAc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -123,7 +188,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +204,48 @@
               <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="oop_advance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="oop_basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="regex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="sparrow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -147,18 +253,58 @@
               <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="alink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python-3.7.4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python-3.7.4" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -166,33 +312,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sparrow-flink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="sparrow-pyalink" sdk-home="/usr/local/bin/python2.7">
-        <option name="mySdkHome" value="/usr/local/bin/python2.7" />
+      <console-settings module-name="sparrow-pyalink" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="sparrow-pyalink" />
       </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\alink" />
-      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\draw" />
-      <recent name="D:\workspace\sparrow\sparrow-pyalink\source" />
-      <recent name="$PROJECT_DIR$/source/sparrow/alink" />
-      <recent name="$PROJECT_DIR$/source/sparrow/basic" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/sparrow/basic" />
       <recent name="$PROJECT_DIR$/source/sparrow/alink" />
       <recent name="$PROJECT_DIR$/source/sparrow" />
       <recent name="$PROJECT_DIR$/source/sparrow/pyflink" />
       <recent name="$PROJECT_DIR$/source" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow" />
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\alink" />
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\draw" />
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source" />
+      <recent name="$PROJECT_DIR$/source/sparrow/alink" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +353,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hello">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="sparrow-pyalink" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\python-3.7.4\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="10.2.5.161" />
+      <option name="ipnbPort" value="54689" />
+      <method v="2" />
+    </configuration>
     <configuration name="WordCountOrigin" type="PythonConfigurationType" factoryName="Python">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,7 +394,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="animals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/samples/oop_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/samples/oop_basic/animals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="attrs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/samples/oop_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/samples/oop_basic/attrs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_type" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/samples/oop_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/samples/oop_basic/get_type.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,13 +482,67 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/strategy/main.py" />
+      <option name="PARAMETERS" value="LRModel arg" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="math" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/draw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/draw/math.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Jupyter Notebook.sparrow-pyalink" />
       <item itemvalue="Python.WordCountOrigin" />
       <item itemvalue="Python.hello" />
+      <item itemvalue="Python.math" />
+      <item itemvalue="Python.get_type" />
+      <item itemvalue="Python.attrs" />
+      <item itemvalue="Python.animals" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hello" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.attrs" />
+        <item itemvalue="Python.animals" />
+        <item itemvalue="Python.get_type" />
+        <item itemvalue="Python.math" />
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +574,12 @@
       <workItem from="1584262960584" duration="769000" />
       <workItem from="1585025912452" duration="2187000" />
       <workItem from="1586425403972" duration="615000" />
+      <workItem from="1592277016306" duration="267000" />
+      <workItem from="1592289212638" duration="125000" />
+      <workItem from="1592292578323" duration="2096000" />
+      <workItem from="1594634115649" duration="13000" />
+      <workItem from="1594785129014" duration="4542000" />
+      <workItem from="1594792877055" duration="826000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1583554620882</created>
@@ -302,50 +592,69 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6179000" />
+    <option name="totallyTimeSpent" value="5368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32874355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3532423" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.051107325" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48381603" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32879046" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29863483" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22525597" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
@@ -353,206 +662,153 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="146" key="#WordCountOrigin" timestamp="1583127507384">
-      <screen x="0" y="0" width="1680" height="974" />
+    <state x="379" y="0" key="#math" timestamp="1592292874112">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="549" y="146" key="#WordCountOrigin/0.0.1680.974@0.0.1680.974" timestamp="1583127507384" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583163394164">
-      <screen x="0" y="0" width="1680" height="971" />
+    <state x="379" y="0" key="#math/0.0.1366.728@0.0.1366.728" timestamp="1592292874112" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1592292630045">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.971@0.0.1680.971" timestamp="1583163394164" />
-    <state x="594" y="297" key="EnvironmentVariablesDialog" timestamp="1583163367635">
-      <screen x="0" y="0" width="1680" height="971" />
-    </state>
-    <state x="594" y="297" key="EnvironmentVariablesDialog/0.0.1680.971@0.0.1680.971" timestamp="1583163367635" />
-    <state width="1638" height="356" key="GridCell.Tab.0.bottom" timestamp="1583167434937">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="412" key="GridCell.Tab.0.bottom/0.0.1680.971@0.0.1680.971" timestamp="1583164053400" />
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.974@0.0.1680.974" timestamp="1583158523244" />
-    <state width="1638" height="356" key="GridCell.Tab.0.bottom/0.23.1680.951@0.23.1680.951" timestamp="1583167434937" />
-    <state width="1638" height="356" key="GridCell.Tab.0.center" timestamp="1583167434936">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="412" key="GridCell.Tab.0.center/0.0.1680.971@0.0.1680.971" timestamp="1583164053398" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.974@0.0.1680.974" timestamp="1583158523243" />
-    <state width="1638" height="356" key="GridCell.Tab.0.center/0.23.1680.951@0.23.1680.951" timestamp="1583167434936" />
-    <state width="1638" height="356" key="GridCell.Tab.0.left" timestamp="1583167434936">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="412" key="GridCell.Tab.0.left/0.0.1680.971@0.0.1680.971" timestamp="1583164053397" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.974@0.0.1680.974" timestamp="1583158523242" />
-    <state width="1638" height="356" key="GridCell.Tab.0.left/0.23.1680.951@0.23.1680.951" timestamp="1583167434936" />
-    <state width="1638" height="356" key="GridCell.Tab.0.right" timestamp="1583167434937">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="412" key="GridCell.Tab.0.right/0.0.1680.971@0.0.1680.971" timestamp="1583164053399" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.974@0.0.1680.974" timestamp="1583158523243" />
-    <state width="1638" height="356" key="GridCell.Tab.0.right/0.23.1680.951@0.23.1680.951" timestamp="1583167434937" />
-    <state width="1638" height="361" key="GridCell.Tab.1.bottom" timestamp="1583164883875">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="419" key="GridCell.Tab.1.bottom/0.0.1680.971@0.0.1680.971" timestamp="1583164053394" />
-    <state width="1638" height="430" key="GridCell.Tab.1.bottom/0.0.1680.974@0.0.1680.974" timestamp="1583128439680" />
-    <state width="1638" height="361" key="GridCell.Tab.1.bottom/0.23.1680.951@0.23.1680.951" timestamp="1583164883875" />
-    <state width="1638" height="361" key="GridCell.Tab.1.center" timestamp="1583164883873">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="419" key="GridCell.Tab.1.center/0.0.1680.971@0.0.1680.971" timestamp="1583164053393" />
-    <state width="1638" height="430" key="GridCell.Tab.1.center/0.0.1680.974@0.0.1680.974" timestamp="1583128439679" />
-    <state width="1638" height="361" key="GridCell.Tab.1.center/0.23.1680.951@0.23.1680.951" timestamp="1583164883873" />
-    <state width="1638" height="361" key="GridCell.Tab.1.left" timestamp="1583164883872">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="419" key="GridCell.Tab.1.left/0.0.1680.971@0.0.1680.971" timestamp="1583164053392" />
-    <state width="1638" height="430" key="GridCell.Tab.1.left/0.0.1680.974@0.0.1680.974" timestamp="1583128439678" />
-    <state width="1638" height="361" key="GridCell.Tab.1.left/0.23.1680.951@0.23.1680.951" timestamp="1583164883872" />
-    <state width="1638" height="361" key="GridCell.Tab.1.right" timestamp="1583164883874">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state width="1638" height="419" key="GridCell.Tab.1.right/0.0.1680.971@0.0.1680.971" timestamp="1583164053393" />
-    <state width="1638" height="430" key="GridCell.Tab.1.right/0.0.1680.974@0.0.1680.974" timestamp="1583128439679" />
-    <state width="1638" height="361" key="GridCell.Tab.1.right/0.23.1680.951@0.23.1680.951" timestamp="1583164883874" />
-    <state x="349" y="180" key="SettingsEditor" timestamp="1583551728803">
-      <screen x="0" y="23" width="1680" height="942" />
-    </state>
-    <state x="349" y="163" key="SettingsEditor/0.0.1680.971@0.0.1680.971" timestamp="1583164252552" />
-    <state x="349" y="164" key="SettingsEditor/0.0.1680.974@0.0.1680.974" timestamp="1583158515235" />
-    <state x="349" y="180" key="SettingsEditor/0.23.1680.942@0.23.1680.942" timestamp="1583551728803" />
-    <state x="349" y="182" key="SettingsEditor/0.23.1680.948@0.23.1680.948" timestamp="1583164520549" />
-    <state x="349" y="182" key="SettingsEditor/0.23.1680.951@0.23.1680.951" timestamp="1583167115389" />
-    <state x="519" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1583551335101">
-      <screen x="0" y="23" width="1680" height="942" />
-    </state>
-    <state x="519" y="314" key="com.intellij.ide.util.TipDialog/0.0.1680.971@0.0.1680.971" timestamp="1583164205407" />
-    <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.0.1680.974@0.0.1680.974" timestamp="1583158165103" />
-    <state x="519" y="328" key="com.intellij.ide.util.TipDialog/0.23.1680.942@0.23.1680.942" timestamp="1583551335101" />
-    <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.951@0.23.1680.951" timestamp="1583127408768" />
-    <state x="505" y="149" width="670" height="676" key="search.everywhere.popup" timestamp="1583169448379">
-      <screen x="0" y="23" width="1680" height="951" />
-    </state>
-    <state x="505" y="149" width="670" height="676" key="search.everywhere.popup/0.23.1680.951@0.23.1680.951" timestamp="1583169448379" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592292630045" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583163939892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$hello.coverage" NAME="hello Coverage Results" MODIFIED="1583167417061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/basic" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583163939892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>type(model).__name__</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
+    <entry file="file://$PROJECT_DIR$/source/sparrow/alink/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/protected_student.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
+        <state relative-caret-position="-564" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reame.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2520">
-            <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/get_type.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="240">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reame.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2520">
-            <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/attrs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reame.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2520">
-            <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/__init__.py" />
-    <entry file="file://D:/python-3.7.4/Lib/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="447" column="8" lean-forward="true" selection-start-line="447" selection-start-column="8" selection-end-line="447" selection-end-column="8" />
+        <state relative-caret-position="216">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/95416421/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="5280" column="52" selection-start-line="5280" selection-start-column="52" selection-end-line="5280" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/basic/hello.ipynb" />
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/alinkDemo.py" />
-    <entry file="file://$PROJECT_DIR$/bin/pyflink-shell.sh">
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_advance/create_class_on_the_fly.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="216">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyalink/als.ipynb" />
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/alink/PythonAlink.ipynb" />
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCount.ipynb" />
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/pyflink/WordCountOrigin.py" />
-    <entry file="file://$PROJECT_DIR$/source/com/sparrow/basic/System.ipynb" />
-    <entry file="file://$PROJECT_DIR$/reame.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2520">
-            <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pyflink/java_gateway.py">
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_advance/special_call.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/get_instance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.7.4/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/abstract_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/wide_deep_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/singleton/model_registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
