@@ -20,16 +20,16 @@
         "etl_template.dtd">
 <etl>
     <!--获取用户特征-->
-    <select name="order_count" args="name,order">
-        select * from search_data.recommed_index_lr_class1_feature where name=${name} and order=${order}
+    <select name="order_count">
+        select * from search_data.recommed_index_lr_class1_feature where name={0} and order={1}
     </select>
-    <select name="order_count_7_day_feature" args="id,days">
+    <select name="order_count_7_day_feature">
         select * from b where a=1 and b=2
     </select>
-    <select name="order_count_180_days_feature" args="id,days">
+    <select name="order_count_180_days_feature">
         select * from c
     </select>
-    <select name="user_feature" args="user_id,user_age">
+    <select name="user_feature">
         select * from t where user_id=${user_id} and user_age=${user_age}
     </select>
 </etl>

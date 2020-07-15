@@ -1,5 +1,5 @@
 from sparrow.strategy.abstract_model import AbstractModel
-from sparrow.xml_db.etl import ETL
+from sparrow.xml_db.sparketl import SparkETL
 
 
 class LRModel(AbstractModel):
@@ -7,10 +7,10 @@ class LRModel(AbstractModel):
         pass
 
     def run(self, args):
-        etl = ETL("recommend_lr_feature")
+        etl = SparkETL("recommend_lr_feature.xml", "recommend-lr")
         sample = etl.load("sample")
-        user_feature = etl.load("user_feature",1)
-        item_feature = etl.load("item_feature",1)
+        user_feature = etl.load("user_feature", 1)
+        item_feature = etl.load("item_feature", 1)
 
-        result = predict(sample, user_feature, item_feature)
-        save_result(result)
+        # result = predict(sample, user_feature, item_feature)
+        # save_result(result)

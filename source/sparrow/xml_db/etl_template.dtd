@@ -18,5 +18,4 @@
         <!ELEMENT select (#PCDATA)>
         <!ATTLIST select
                 name   ID #REQUIRED
-                args    CDATA #REQUIRED
                 >
