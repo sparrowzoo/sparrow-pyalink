@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/xml_db/sparketl.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sparrow/strategy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/strategy/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/etl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/etl_template.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/xml_db/etl_template.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/etl_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/recommend_wide_deep_feature.xml" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/xml_db/recommend_wide_deep_feature.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/source/com/" />
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -44,6 +37,7 @@
     <SUITE FILE_PATH="coverage/sparrow_pyalink$etl.coverage" NAME="etl Coverage Results" MODIFIED="1594802418556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/xml_db" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583033562692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$sparrow_pyalink.coverage" NAME="sparrow-pyalink Coverage Results" MODIFIED="1592277513502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$main.coverage" NAME="main Coverage Results" MODIFIED="1594811886155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/strategy" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$code.coverage" NAME="code Coverage Results" MODIFIED="1582906969676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$math.coverage" NAME="math Coverage Results" MODIFIED="1592274436254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/draw" />
   </component>
@@ -66,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="264">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -76,19 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/sparrow/singleton/model_registry.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/sparketl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="264">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -97,22 +82,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/python-3.7.4/Lib/codecs.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="309" selection-start-line="309" selection-end-line="309" />
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -120,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="624">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -129,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/samples/basic/do_for.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="144">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -138,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_wide_deep_feature.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="744">
               <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
@@ -147,20 +129,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl_template.dtd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="456">
               <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="192">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/samples/basic/do_input.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -180,6 +171,7 @@
     <findStrings>
       <find>JAVA_RUN</find>
       <find>return</find>
+      <find>SparkContext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,9 +195,9 @@
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/etl.py" />
         <option value="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/sparketl.py" />
         <option value="$PROJECT_DIR$/source/sparrow/strategy/main.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" />
       </list>
     </option>
   </component>
@@ -299,21 +291,7 @@
               <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
               <item name="strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="xml_db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -539,7 +517,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/strategy/main.py" />
-      <option name="PARAMETERS" value="WideDeepModel" />
+      <option name="PARAMETERS" value="LRModel arg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -559,8 +537,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.etl" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.etl" />
         <item itemvalue="Python.attrs" />
         <item itemvalue="Python.animals" />
         <item itemvalue="Python.get_type" />
@@ -604,6 +582,7 @@
       <workItem from="1594793881843" duration="4000" />
       <workItem from="1594793938947" duration="581000" />
       <workItem from="1594794570298" duration="2097000" />
+      <workItem from="1594811784014" duration="510000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1583554620882</created>
@@ -623,12 +602,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16799000" />
+    <option name="totallyTimeSpent" value="19462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -638,7 +617,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.56825936" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40784982" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.443686" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -646,7 +625,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14334472" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.70477813" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -862,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_for.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python-3.7.4/Lib/site-packages/pip/_vendor/html5lib/_inputstream.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -877,13 +849,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl_template.py" />
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_wide_deep_feature.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python-3.7.4/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -891,57 +856,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl_template.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/sparketl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="264">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_for.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_wide_deep_feature.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl_template.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="192">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
