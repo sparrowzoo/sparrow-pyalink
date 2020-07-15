@@ -24,7 +24,7 @@
         select * from search_data.recommed_index_lr_class1_feature where name=${name} and order=${order}
     </select>
     <select name="order_count_7_day_feature" args="id,days">
-        select * from b
+        select * from b where a=1 and b=2
     </select>
     <select name="order_count_180_days_feature" args="id,days">
         select * from c

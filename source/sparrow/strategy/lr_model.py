@@ -9,8 +9,8 @@ class LRModel(AbstractModel):
     def run(self, args):
         etl = ETL("recommend_lr_feature")
         sample = etl.load("sample")
-        user_feature = etl.load("user_feature")
-        item_feature = etl.load("item_feature")
+        user_feature = etl.load("user_feature",1)
+        item_feature = etl.load("item_feature",1)
 
         result = predict(sample, user_feature, item_feature)
         save_result(result)
