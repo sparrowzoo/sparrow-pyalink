@@ -133,10 +133,11 @@ dmypy.json
 
 将删除 venv/
 
-.idea
+.idea/
 将删除 dataset/.DS_Store
 
 
 dataset/yelp
 .DS_Store
+
 
