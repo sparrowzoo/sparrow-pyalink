@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
+.idea
 __pycache__/
 *.py[cod]
 *$py.class
@@ -131,3 +132,12 @@ dmypy.json
 .pyre/
 
 将删除 venv/
+
+.idea/
+将删除 dataset/.DS_Store
+
+
+dataset/yelp
+.DS_Store
+
+

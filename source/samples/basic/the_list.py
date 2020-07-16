@@ -2,11 +2,23 @@
 # -*- coding: utf-8 -*-
 
 classmates = ['Michael', 'Bob', 'Tracy']
+classmates.append("Harry")
+classmates.insert(4,"Sparrow")
+classmates.append("test")
+classmates.remove("test")
+classmates.pop()
+classmates.pop(2)
 print('classmates =', classmates)
 print('len(classmates) =', len(classmates))
-print('classmates[0] =', classmates[0])
-print('classmates[1] =', classmates[1])
-print('classmates[2] =', classmates[2])
-print('classmates[-1] =', classmates[-1])
-classmates.pop()
+for item in classmates:
+    print(item)
+classmates[1]="Modified Bob"
 print('classmates =', classmates)
+
+print("sorted list=",classmates)
+
+print("temp sort list=",sorted(classmates))
+classmates.reverse()
+print("reverse list=",classmates)
+classmates.reverse()
+print("reverse list=",classmates)
