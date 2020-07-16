@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="" />
+    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/关于Ruby和Gnuplot的配置说明（PDF版）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime0.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime1.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime2.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime3.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime4.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime5.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime6.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime7.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime8.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime9.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/mat_anim.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/mymatrix.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,8 +26,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sparrow_pyalink$alinkDemo.coverage" NAME="alinkDemo Coverage Results" MODIFIED="1582956546172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyalink" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583033562692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$code.coverage" NAME="code Coverage Results" MODIFIED="1582906969676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583033562692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -58,6 +75,10 @@
       <option value="source/sparrow/pyflink/test.ipynb" />
     </option>
   </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
   <component name="ProjectId" id="1YYlRFP8gXnkaRaoer6wKanHxAc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,7 +93,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/yulp" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
@@ -86,19 +108,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset/yulp" />
-      <recent name="$PROJECT_DIR$/source/sparrow/alink" />
-      <recent name="$PROJECT_DIR$/source/sparrow/basic" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="D:\workspace\sparrow\sparrow-pyalink" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataset/csv" />
       <recent name="$PROJECT_DIR$/dataset" />
       <recent name="$PROJECT_DIR$/csv" />
       <recent name="$PROJECT_DIR$/source/sparrow/basic" />
       <recent name="$PROJECT_DIR$/source/sparrow/alink" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/程序员线性代数" />
+      <recent name="$PROJECT_DIR$/dataset/yulp" />
+      <recent name="$PROJECT_DIR$/source/sparrow/alink" />
+      <recent name="$PROJECT_DIR$/source/sparrow/basic" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python.metrics">
@@ -293,6 +315,8 @@
       <workItem from="1583834497719" duration="40512000" />
       <workItem from="1583920091309" duration="6283000" />
       <workItem from="1514768178308" duration="10021000" />
+      <workItem from="1584966401413" duration="3240000" />
+      <workItem from="1585151006325" duration="3055000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1583554280383</created>
@@ -315,7 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584878237936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove .idea">
+      <created>1584966523714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584966523714</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1584966555992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584966555993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +362,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
+    <MESSAGE value="remove .idea" />
     <MESSAGE value="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
@@ -336,6 +375,10 @@
       <screen x="0" y="0" width="1680" height="971" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.971@0.0.1680.971" timestamp="1583163394164" />
+    <state x="546" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585728660131">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="546" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.945@0.23.1680.945" timestamp="1585728660131" />
     <state x="901" y="250" key="#xdebugger.evaluate" timestamp="1583933359074">
       <screen x="0" y="23" width="1680" height="942" />
     </state>
@@ -445,18 +488,19 @@
     <state x="349" y="180" key="SettingsEditor/0.23.1680.942@0.23.1680.942" timestamp="1583551728803" />
     <state x="349" y="182" key="SettingsEditor/0.23.1680.948@0.23.1680.948" timestamp="1583164520549" />
     <state x="349" y="182" key="SettingsEditor/0.23.1680.951@0.23.1680.951" timestamp="1583167115389" />
-    <state x="440" y="234" key="Vcs.Push.Dialog.v2" timestamp="1584966567459">
+    <state x="440" y="234" key="Vcs.Push.Dialog.v2" timestamp="1584971888430">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state x="440" y="234" key="Vcs.Push.Dialog.v2/0.23.1680.942@0.23.1680.942" timestamp="1584878246248" />
-    <state x="440" y="234" key="Vcs.Push.Dialog.v2/0.23.1680.945@0.23.1680.945" timestamp="1584966567459" />
+    <state x="440" y="234" key="Vcs.Push.Dialog.v2/0.23.1680.945@0.23.1680.945" timestamp="1584971888430" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.23.1680.948@0.23.1680.948" timestamp="1583589986222" />
-    <state x="519" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1584966402313">
-      <screen x="0" y="23" width="1680" height="945" />
+    <state x="519" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1585151857003">
+      <screen x="0" y="23" width="1680" height="942" />
     </state>
     <state x="519" y="314" key="com.intellij.ide.util.TipDialog/0.0.1680.971@0.0.1680.971" timestamp="1583164205407" />
     <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.0.1680.974@0.0.1680.974" timestamp="1583158165103" />
     <state x="519" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.939@0.23.1680.939" timestamp="1583835686946" />
+    <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.942@0.23.1680.942" timestamp="1585151857003" />
     <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.945@0.23.1680.945" timestamp="1584966402313" />
     <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.951@0.23.1680.951" timestamp="1583127408768" />
     <state x="506" y="128" width="667" height="729" key="find.popup" timestamp="1583930977010">
