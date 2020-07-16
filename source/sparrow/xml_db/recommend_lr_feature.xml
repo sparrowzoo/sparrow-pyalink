@@ -20,8 +20,8 @@
         "etl_template.dtd">
 <etl>
     <!--获取用户特征-->
-    <select name="order_count">
-        select * from search_data.recommed_index_lr_class1_feature where name=${name} and order=${order}
+    <select name="sample">
+        select * from search_data.recommed_index_lr_class1_feature where name={arg1} and order={arg2}
     </select>
     <select name="order_count_7_day_feature">
         select * from b

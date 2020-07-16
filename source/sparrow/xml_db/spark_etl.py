@@ -14,7 +14,8 @@ class SparkETL(Pyconfig):
         self.SPARK_EXECUTOR_CORES = executor_cores
         self.SPARK_EXECUTOR_INSTANCES = executor_cores
         self.spark = self.create_spark_session()
-        xml_path=os.curdir
+
+        os.chdir(sys.path[0])
         doc = parse(xml_path)
         self.dict = {}
         select_list = doc.getElementsByTagName('select')
@@ -22,10 +23,9 @@ class SparkETL(Pyconfig):
             name = select.getAttribute('name')
             self.dict[name] = select.childNodes[0].nodeValue
 
-    def load(self, name, args):
+    def load(self, name, args=0):
         sql = self.dict[name]
         print(sql)
-        return self.spark.sql(sql.format(args))
-
+        return self.spark.sql(sql.format(**args))  ##** args
 
 # SparkETL("recommend_lr_feature.xml").load("order_count", 1)
