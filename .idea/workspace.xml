@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/关于Ruby和Gnuplot的配置说明（PDF版）.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime0.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime1.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime2.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime3.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime4.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime5.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime6.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime7.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime8.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime9.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/mat_anim.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/mymatrix.rb" afterDir="false" />
+    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/source/com/" />
+    <ignored path="$PROJECT_DIR$/venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +31,19 @@
     <expand />
     <select />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/feature/one_hot_encoder.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,6 +55,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/sparrow/feature/one_hot_encoder.ipynb" />
+      </list>
+    </option>
   </component>
   <component name="JupyterTrust" id="4c9ac9ab-9af0-4b9d-8ce2-f23e0c87457f">
     <option name="files">
@@ -82,6 +90,58 @@
   <component name="ProjectId" id="1YYlRFP8gXnkaRaoer6wKanHxAc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="cookbook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="binning" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -122,6 +182,18 @@
       <recent name="$PROJECT_DIR$/source/sparrow/basic" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.metrics">
     <configuration name="WordCountOrigin" type="PythonConfigurationType" factoryName="Python">
@@ -317,6 +389,7 @@
       <workItem from="1514768178308" duration="10021000" />
       <workItem from="1584966401413" duration="3240000" />
       <workItem from="1585151006325" duration="3055000" />
+      <workItem from="1594874123991" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1583554280383</created>
@@ -353,14 +426,56 @@
       <option name="project" value="LOCAL" />
       <updated>1584966555993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594874175908</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594874175909</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594874661123</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594874661123</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="740000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <MESSAGE value="remove .idea" />
     <MESSAGE value="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
@@ -516,11 +631,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/source/draw/histogram_yelp.ipynb</url>
-          <line>40</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/source/sparrow/tools/metrics.py</url>
           <line>17</line>
@@ -539,5 +649,14 @@
     <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583163939892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$hello.coverage" NAME="hello Coverage Results" MODIFIED="1583167417061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/basic" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$path.coverage" NAME="path Coverage Results" MODIFIED="1583559595377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tools" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/sparrow/feature/one_hot_encoder.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
