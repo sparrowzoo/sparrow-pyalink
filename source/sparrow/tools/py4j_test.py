@@ -7,4 +7,4 @@ number2 = random.nextInt(10)
 print(number1, number2)
 
 addition_app = gateway.entry_point  # get the AdditionApplication instance
-addition_app.addition(number1, number2)
+print(addition_app.addition(number1, number2))

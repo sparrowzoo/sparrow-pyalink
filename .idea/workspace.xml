@@ -19,16 +19,56 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/document/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Spark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Spark.xml" afterDir="false" />
+    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;source/sparrow/feature/binning/yelp_visual.ipynb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sparrow/strategy/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/tools/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tools/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/draw/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/draw/histogram_yelp.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/draw/line.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/draw/line.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/async/async_hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/async/async_wget.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/db/do_mysql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/db/do_sqlalchemy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/db/do_sqlite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/gui/hello_gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/gui/turtle/rect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/gui/turtle/stars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/gui/turtle/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/io/do_bytesio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/io/do_dir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/io/do_stringio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/io/use_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/io/use_pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/io/with_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/mail/fetch_mail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/mail/send_mail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/test/dict_doctest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/test/dict_unittest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/web/do_flask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/web/do_wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/web/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/web/mvc/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/web/mvc/templates/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/web/mvc/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-src/source/samples/web/mvc/templates/signin-ok.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/housing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/housing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/preprocessor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/preprocessor.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/regressor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/regressor.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/fixed.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/fixed.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/quantile.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/quantile.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/crosss_feature.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/feature/crosss_feature.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/log_transform.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/feature/log_transform.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/one_hot_encoder.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/feature/one_hot_encoder.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/two_value.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow/source/sparrow/feature/two_value.ipynb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/source/com/" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,15 +76,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sparrow_pyalink$sparketl.coverage" NAME="sparketl Coverage Results" MODIFIED="1594870405444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/xml_db" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$spark_reader.coverage" NAME="spark_reader Coverage Results" MODIFIED="1594892250621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/csv_reader" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$alinkDemo.coverage" NAME="alinkDemo Coverage Results" MODIFIED="1582956546172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyalink" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583033562692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$sparrow_pyalink.coverage" NAME="sparrow-pyalink Coverage Results" MODIFIED="1592277513502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$Spark.coverage" NAME="Spark Coverage Results" MODIFIED="1594895434519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583033562692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$spark_reader.coverage" NAME="spark_reader Coverage Results" MODIFIED="1594892250621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/csv_reader" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$main.coverage" NAME="main Coverage Results" MODIFIED="1595391272517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$code.coverage" NAME="code Coverage Results" MODIFIED="1582906969676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$sparrow_pyalink.coverage" NAME="sparrow-pyalink Coverage Results" MODIFIED="1592277513502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$alinkDemo.coverage" NAME="alinkDemo Coverage Results" MODIFIED="1582956546172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyalink" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$math.coverage" NAME="math Coverage Results" MODIFIED="1592274436254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/draw" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$py4j.coverage" NAME="py4j Coverage Results" MODIFIED="1595591055450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tools" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$py4j_test.coverage" NAME="py4j_test Coverage Results" MODIFIED="1595828855689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tools" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -61,7 +102,32 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/document/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="3924">
+                <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +144,9 @@
       <find>return</find>
       <find>SparkContext</find>
       <find>.format</find>
+      <find>JavaGateway</find>
+      <find>evaluation</find>
+      <find>PR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,10 +177,20 @@
         <option value="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" />
         <option value="$PROJECT_DIR$/source/sparrow/strategy/main.py" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py" />
-        <option value="$PROJECT_DIR$/document/readme.md" />
         <option value="$PROJECT_DIR$/source/sparrow/tools/py4j.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" />
+        <option value="$PROJECT_DIR$/sparrow/source/sparrow/feature/crosss_feature.ipynb" />
+        <option value="$PROJECT_DIR$/source/sparrow/tools/metrics.py" />
+        <option value="$PROJECT_DIR$/document/spark-submit.sh" />
+        <option value="$PROJECT_DIR$/document/readme.md" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="JupyterTrust" id="bf30181f-b656-49c1-b50d-1cd4bf21c156">
     <option name="files">
@@ -124,10 +203,13 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="284" />
+    <option name="y" value="20" />
+    <option name="width" value="1386" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1YYlRFP8gXnkaRaoer6wKanHxAc" />
@@ -137,7 +219,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,49 +232,13 @@
             <path>
               <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="pyflink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="xml_db" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -202,10 +250,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../meicai/spark-xml-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -243,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.py4j">
+  <component name="RunManager" selected="Python.py4j_test">
     <configuration name="sparrow-pyalink" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,7 +308,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="10.2.5.161" />
       <option name="ipnbPort" value="54689" />
-      <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
@@ -280,9 +327,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="py4j" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
@@ -302,9 +346,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    </configuration>
+    <configuration name="py4j_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="spark_reader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
@@ -324,9 +384,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="sparketl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
@@ -346,9 +403,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.sparrow-pyalink" />
@@ -357,9 +411,11 @@
       <item itemvalue="Python.spark_reader" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.py4j" />
+      <item itemvalue="Python.py4j_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.py4j_test" />
         <item itemvalue="Python.py4j" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.spark_reader" />
@@ -414,7 +470,9 @@
       <workItem from="1595574941323" duration="592000" />
       <workItem from="1595577477030" duration="879000" />
       <workItem from="1595578929243" duration="3681000" />
-      <workItem from="1595813764393" duration="388000" />
+      <workItem from="1595813764393" duration="13514000" />
+      <workItem from="1595839240418" duration="3903000" />
+      <workItem from="1596082005125" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1583554620882</created>
@@ -451,46 +509,54 @@
       <option name="project" value="LOCAL" />
       <updated>1594897531669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;source/sparrow/feature/binning/yelp_visual.ipynb">
+      <created>1595814375650</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595814375651</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47462000" />
+    <option name="totallyTimeSpent" value="66316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44197953" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36348122" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.12627986" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21331058" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.12627986" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52730376" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.7764505" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36348122" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,20 +579,9 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
@@ -547,11 +602,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/main.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py</url>
           <line>9</line>
@@ -621,73 +671,16 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl.py" />
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_feature.xml" />
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/protected_student.py">
+    <entry file="file://$PROJECT_DIR$/source/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/attrs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/95416421/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="5280" column="52" selection-start-line="5280" selection-start-column="52" selection-end-line="5280" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_advance/create_class_on_the_fly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_advance/special_call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/get_instance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/animals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" />
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl_parser.py" />
-    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/wide_deep_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python-3.7.4/Lib/site-packages/pip/_vendor/html5lib/_inputstream.py" />
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl_template.py" />
     <entry file="file://D:/python-3.7.4/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/source/sparrow/alink/sparklr验证.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
@@ -854,10 +847,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/xml_db/spark_etl.py" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/strategy/lr_model.py" />
+    <entry file="file://D:/Python/Python37/Lib/site-packages/py4j/java_gateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="2154" lean-forward="true" selection-start-line="2154" selection-end-line="2154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/crosss_feature.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/csv_reader/spark_reader.py" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/fixed.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/quantile.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/log_transform.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/one_hot_encoder.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/two_value.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/draw/line.py" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/alink/PythonAlink.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/cookbook/regressor.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/cookbook/preprocessor.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/cookbook/housing.ipynb" />
+    <entry file="file://$PROJECT_DIR$/document/spark-submit.sh" />
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tools/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" />
+    <entry file="file://D:/Python/Python37/Lib/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow/source/main.py" />
     <entry file="file://$PROJECT_DIR$/source/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="264">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -867,27 +906,10 @@
     <entry file="file://$PROJECT_DIR$/document/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
+          <first_editor relative-caret-position="3924">
+            <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/tools/py4j_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
