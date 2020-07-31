@@ -20,7 +20,14 @@ spark-submit --master local --py-files sparrow-src.zip --executor-memory 2G main
 ```
 spark-submit online command line
 ```
-/opt/spark/spark/bin/spark-submit --name new_corss_cover --queue etl-sc --master yarn --deploy-mode cluster --archives hdfs://ns1/user/ruban/deploy/pyspark_env/py3_ml_env/search_recommendation.zip --conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=./search_recommendation.zip/search_recommendation/bin/python --conf spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=./search_recommendation.zip/search_recommendation/bin/python --executor-memory 6g --num-executors 8 --executor-cores 8 --driver-memory 6g --files $SPARK_HOME/conf/hive-site.xml --py-files meicai_index_cross_main.zip test_xml_main.py 
+/opt/spark/spark/bin/spark-submit 
+--name new_corss_cover --queue etl-sc --master yarn --deploy-mode cluster 
+--archives hdfs://ns1/user/ruban/deploy/pyspark_env/py3_ml_env/search_recommendation.zip 
+--conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=./search_recommendation.zip/search_recommendation/bin/python 
+--conf spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=./search_recommendation.zip/search_recommendation/bin/python 
+--executor-memory 6g --num-executors 8 --executor-cores 8 --driver-memory 6g 
+--files $SPARK_HOME/conf/hive-site.xml 
+--py-files meicai_index_cross_main.zip test_xml_main.py 
 ```
 
 # spark on yarn
@@ -131,4 +138,14 @@ spark.port.maxRetries
  
 spark.yarn.maxAppAttempts 
     作业最大重试次数，它不应该大于yarn配置中设置的全局最大重试数。默认是等于的。
+
+
+`将document下的hive-site.xml,hdfs-site.xml,core-site.xml copy至${SPARK_HOME}/conf下`
+
+error
+---
+1. pyspark org.apache.thrift.TApplicationException: Invalid method name: 'get_all_functions'
+2. Py4JError:org.apache.spark.api.python.PythonUtils.isEncryptionEnabled does not exist in the JVM
+解决方案
+SPARK_HOME 与pyspark 版本要一致并与hive版本兼容
 

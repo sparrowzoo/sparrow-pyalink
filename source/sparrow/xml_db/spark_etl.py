@@ -6,7 +6,7 @@ from sparrow.xml_db.pyspark_config import Pyconfig
 
 
 class SparkETL(Pyconfig):
-    def __init__(self, xml_path, app_name="recommend-api", spark_url="yarn", executor_memory="6g", executor_cores=8):
+    def __init__(self, xml_path, app_name="recommend-api", spark_url="local", executor_memory="6g", executor_cores=8):
         self.SPARK_APP_NAME = app_name
         self.SPARK_URL = spark_url
         self.ENABLE_HIVE_SUPPORT = True
@@ -22,6 +22,9 @@ class SparkETL(Pyconfig):
         for select in select_list:
             name = select.getAttribute('name')
             self.dict[name] = select.childNodes[0].nodeValue
+
+    def getSession(self):
+        return self.spark
 
     def load(self, name, args=0):
         sql = self.dict[name]
