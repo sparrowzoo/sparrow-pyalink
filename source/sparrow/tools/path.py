@@ -12,3 +12,6 @@ def get_workspace_path(path):
     workspace=cwd[0:end_index]
     return workspace
 
+
+
+print get_workspace_path("path.py")
