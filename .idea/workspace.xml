@@ -19,14 +19,187 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;source/sparrow/feature/binning/yelp_visual.ipynb">
-      <change afterPath="$PROJECT_DIR$/document/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/hive-site.xml" afterDir="false" />
+    <list default="true" id="c9f3e815-06d3-494e-a7c4-206aaf8e2554" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/sparrow/feature/data_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/adult.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/adult.names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/adult.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/adult_simple.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/adult_simple.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_onehot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/matrix_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tensor_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tf_feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tfTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/toy_classic.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result/wide_deep_result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result/wide_deep_shuffle_result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sparrow-pyalink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sparrow-pyalink.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/csv_reader/spark_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/csv_reader/spark_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/feature/crosss_feature.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/feature/crosss_feature.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/feature/one_hot_encoder.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/feature/one_hot_encoder.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/feature/two_value.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/feature/two_value.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/pyflink/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/pyflink/test.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/bin/2python.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/bin/pyflink-shell.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/dataset/csv/boston_house_prices.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/dataset/csv/regressor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/dataset/csv/user_listen_count.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/document/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/pyalink-1.1.0-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/reame.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/advance/do_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/advance/do_iter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/advance/do_listcompr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/advance/do_slice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/advance/do_yield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/check_bmp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/do_base64.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_chainmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_datetime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_hashlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_htmlparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_itertools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_sax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/commonlib/use_urllib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/context/do_closing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/context/do_suppress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/context/do_with.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/function/call_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/function/def_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/function/kw_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/function/recur.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/function/var_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/decorator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/do_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/do_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/do_partial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/do_reduce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/do_sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/prime_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/functional/return_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/do_folk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/do_lock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/do_queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/do_subprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/multi_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/multi_threading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/pooled_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/task_master.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/task_worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/multitask/use_threadlocal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/create_class_on_the_fly.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/orm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/special_call.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/special_getattr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/special_getitem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/special_iter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/special_str.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/use_enum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/use_metaclass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/use_property.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_advance/use_slots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_basic/animals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_basic/attrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_basic/get_instance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_basic/get_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_basic/protected_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/oop_basic/student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/packages/pil/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/packages/pil/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/packages/pil/use_pil_blur.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/packages/pil/use_pil_draw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/packages/pil/use_pil_resize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/samples/socket/do_tcp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/csv_reader/panda_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/alink/PythonAlink.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/alink/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/mf/mf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/alink/sparklr验证.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/basic/System.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/basic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/mf/mf_dot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/basic/array.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/basic/hello.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/housing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/preprocessor.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/cookbook/regressor.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/csv_reader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/embedding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/csv_reader/flight_date.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/csv_reader/spark_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/dssm_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/embeding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/feature/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/fixed.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/quantile.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/yelp_visual.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/yelp_visual.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/crosss_feature.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/log_transform.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/one_hot_encoder.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/two_value.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/feature/two_value.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/pyflink/WordCount.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/pyflink/WordCountOrigin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/pyflink/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/pyflink/test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/singleton/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/array_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/singleton/model_registry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/strategy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/csv_rader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/strategy/abstract_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/strategy/lr_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/strategy/wide_deep_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/data_hive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/tools/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/tools/path.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/tools/path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/two-tower.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_q.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/xml_db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/range_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/xml_db/etl_template.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/xml_db/pyspark_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/xml_db/recommend_lr_feature.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/xml_db/recommend_wide_deep_feature.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/source/sparrow/xml_db/spark_etl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/关于Ruby和Gnuplot的配置说明（PDF版）.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime0.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime1.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime2.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime3.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime4.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime5.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime6.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime7.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime8.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime9.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/mat_anim.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow/程序员线性代数/程序员的数学3：线性代数-下载资源/mymatrix.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/关于Ruby和Gnuplot的配置说明（PDF版）.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime0.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime1.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime2.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime3.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime4.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime5.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime6.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime7.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime8.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/anime/mat_anime9.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/mat_anim.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员线性代数/程序员的数学3：线性代数-下载资源/mymatrix.rb" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/source/com/" />
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -37,18 +210,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$sparketl.coverage" NAME="sparketl Coverage Results" MODIFIED="1594870405444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/xml_db" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$spark_reader.coverage" NAME="spark_reader Coverage Results" MODIFIED="1594892250621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/csv_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$array_reader.coverage" NAME="array_reader Coverage Results" MODIFIED="1597301228276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$main.coverage" NAME="main Coverage Results" MODIFIED="1604629693216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$code.coverage" NAME="code Coverage Results" MODIFIED="1582906969676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$py4j_test.coverage" NAME="py4j_test Coverage Results" MODIFIED="1595828855689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tools" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$alinkDemo.coverage" NAME="alinkDemo Coverage Results" MODIFIED="1582956546172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyalink" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$spark_reader.coverage" NAME="spark_reader Coverage Results" MODIFIED="1604627570691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/csv_reader" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$WordCountOrigin.coverage" NAME="WordCountOrigin Coverage Results" MODIFIED="1583033562692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/com/sparrow/pyflink" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$sparrow_pyalink.coverage" NAME="sparrow-pyalink Coverage Results" MODIFIED="1592277513502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$Spark.coverage" NAME="Spark Coverage Results" MODIFIED="1594895434519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$spark_etl.coverage" NAME="spark_etl Coverage Results" MODIFIED="1596187795508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/xml_db" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$main.coverage" NAME="main Coverage Results" MODIFIED="1596189672526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$code.coverage" NAME="code Coverage Results" MODIFIED="1582906969676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$matrix_reader.coverage" NAME="matrix_reader Coverage Results" MODIFIED="1597387151849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$csv_rader.coverage" NAME="csv_rader Coverage Results" MODIFIED="1604718809993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$sparrow_pyalink.coverage" NAME="sparrow-pyalink Coverage Results" MODIFIED="1592277513502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$tensorflow.coverage" NAME="tensorflow Coverage Results" MODIFIED="1597130731382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$panda_reader.coverage" NAME="panda_reader Coverage Results" MODIFIED="1604630163768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/csv_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$tensor_reader.coverage" NAME="tensor_reader Coverage Results" MODIFIED="1604657307688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$tf_feature.coverage" NAME="tf_feature Coverage Results" MODIFIED="1604648716223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$sparketl.coverage" NAME="sparketl Coverage Results" MODIFIED="1594870405444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/xml_db" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$array_reader__1_.coverage" NAME="array_reader (1) Coverage Results" MODIFIED="1597627410494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$embedding.coverage" NAME="embedding Coverage Results" MODIFIED="1597226832680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$tfTest.coverage" NAME="tfTest Coverage Results" MODIFIED="1604633933404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$data_hive.coverage" NAME="data_hive Coverage Results" MODIFIED="1604632832730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$tensorflow1.coverage" NAME="tensorflow1 Coverage Results" MODIFIED="1597215954952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$math.coverage" NAME="math Coverage Results" MODIFIED="1592274436254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/draw" />
+    <SUITE FILE_PATH="coverage/sparrow_pyalink$wide_deep.coverage" NAME="wide_deep Coverage Results" MODIFIED="1604802068058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tensorflow" />
     <SUITE FILE_PATH="coverage/sparrow_pyalink$py4j.coverage" NAME="py4j Coverage Results" MODIFIED="1595591055450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tools" />
-    <SUITE FILE_PATH="coverage/sparrow_pyalink$py4j_test.coverage" NAME="py4j_test Coverage Results" MODIFIED="1595828855689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/sparrow/tools" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -67,69 +253,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/main.py">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41760">
-              <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/document/core-site.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="3504">
+              <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/document/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="331">
-                <caret line="151" lean-forward="true" selection-start-line="142" selection-end-line="151" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_embedding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_onehot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/feature_column/feature_column_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18672">
+              <caret line="822" column="34" selection-start-line="822" selection-start-column="34" selection-end-line="822" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -155,6 +309,22 @@
       <find>evaluation</find>
       <find>PR</find>
       <find>hive.metastore.local</find>
+      <find>embedding</find>
+      <find>parsers</find>
+      <find>parse_csv</find>
+      <find>yarn</find>
+      <find>YarnJobClusterEntrypoint</find>
+      <find>save</find>
+      <find>session</find>
+      <find>log_dir</find>
+      <find>print_tensor</find>
+      <find>os</find>
+      <find>PYSPARK_PYTHON</find>
+      <find>5</find>
+      <find>iterator</find>
+      <find>shuffle</find>
+      <find>plt</find>
+      <find>occupation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,24 +333,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/samples/oop_basic/attrs.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/strategy/model_lr.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/strategy/abstract_model.py" />
-        <option value="$PROJECT_DIR$/source/samples/oop_basic/animals.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/strategy/wide_deep.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/singleton/model_registry.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/strategy/wide_deep_model.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/xml_db/recommend_feature.xml" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/etl_parser.py" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/etl_template.dtd" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/recommend_wide_deep_feature.xml" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/etl_template.py" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/etl.py" />
-        <option value="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/sparketl.py" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/spark_reader.py" />
         <option value="$PROJECT_DIR$/source/sparrow/csv_reader/flight_date.csv" />
-        <option value="$PROJECT_DIR$/source/sparrow/csv_reader/spark_reader.py" />
         <option value="$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml" />
         <option value="$PROJECT_DIR$/source/sparrow/strategy/main.py" />
         <option value="$PROJECT_DIR$/source/sparrow/tools/py4j.py" />
@@ -188,11 +348,42 @@
         <option value="$PROJECT_DIR$/sparrow/source/sparrow/feature/crosss_feature.ipynb" />
         <option value="$PROJECT_DIR$/source/sparrow/tools/metrics.py" />
         <option value="$PROJECT_DIR$/document/spark-submit.sh" />
-        <option value="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" />
         <option value="D:/spark-3.0.0-bin-hadoop2.7/conf/hive-site.xml" />
         <option value="$PROJECT_DIR$/document/hive-site.xml" />
-        <option value="$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py" />
         <option value="$PROJECT_DIR$/document/readme.md" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensorflow.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/embedding.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/embeding.ipynb" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/widedeep.ipynb" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_q.ipynb" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/toy_classic.ipynb" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/array_reader.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/pyflink/test.ipynb" />
+        <option value="$PROJECT_DIR$/source/sparrow/feature/data_processing.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tf.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tfTest.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/csv_reader/spark_reader.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/strategy/lr_model.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/csv_reader/panda_reader.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/data_hive.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tf_feature.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/range_test.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tensor_reader.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/csv_rader.py" />
+        <option value="D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow_estimator/python/estimator/estimator.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/adult_simple.data" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/adult_simple.test" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result/wide_deep_result.txt" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result/wide_deep_shuffle_result.txt" />
+        <option value="$PROJECT_DIR$/source/sparrow/feature/crosss_feature.ipynb" />
+        <option value="$PROJECT_DIR$/source/sparrow/mf/mf.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/mf/mf_dot.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/tensorflow_embedding.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result/tensorflow_onehot.py" />
+        <option value="$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_embedding.py" />
       </list>
     </option>
   </component>
@@ -220,6 +411,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,28 +422,63 @@
             <path>
               <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="sparrow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="mf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="tensor_reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="wide_deep_result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-pyalink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-pyalink" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
@@ -266,9 +493,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../meicai/spark-xml-project" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -281,18 +512,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\tensorflow\wide_deep_result" />
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\tensorflow" />
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\feature" />
       <recent name="D:\workspace\sparrow\sparrow-pyalink\source" />
       <recent name="D:\workspace\sparrow\sparrow-pyalink\document" />
-      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\xml_db" />
-      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow" />
-      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\alink" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\tensorflow\feature" />
+      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\tensorflow\wide_deep_result" />
       <recent name="D:\workspace\sparrow\sparrow-pyalink\document" />
       <recent name="D:\workspace\sparrow\sparrow-pyalink\source" />
       <recent name="D:\workspace\sparrow\sparrow-pyalink\resources" />
-      <recent name="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\csv_reader" />
-      <recent name="$PROJECT_DIR$/source/sparrow/basic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,26 +538,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="sparrow-pyalink" type="JupiterNotebook" factoryName="Jupyter Notebook">
+  <component name="RunManager" selected="Python.tensorflow_embedding (1)">
+    <configuration name="tensorflow1" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\python-3.7.4\python.exe" />
+      <option name="SDK_HOME" value="D:\Users\MC\Anaconda3\envs\tensorflow1\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="additionalOptions" value="" />
-      <option name="ipnbHost" value="10.2.5.161" />
-      <option name="ipnbPort" value="54689" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,21 +565,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/main.py" />
-      <option name="PARAMETERS" value="LRModel arg1 1 arg2 2" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py4j" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,21 +587,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/mf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\tools\py4j_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/mf/mf.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py4j_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mf_dot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -378,43 +609,40 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/mf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/mf/mf_dot.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spark_etl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tensorflow_embedding (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/xml_db" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/tensorflow/feature" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_embedding.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spark_reader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tensorflow_embedding" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sparrow-pyalink" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,14 +650,36 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/csv_reader" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/tensorflow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/sparrow/csv_reader/spark_reader.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\tensorflow\feature\tensorflow_embedding.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tensorflow_onehot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sparrow-pyalink" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\sparrow\sparrow-pyalink\source\sparrow\tensorflow\feature\tensorflow_onehot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -437,21 +687,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jupyter Notebook.sparrow-pyalink" />
+      <item itemvalue="Jupyter Notebook.tensorflow1" />
       <item itemvalue="Python.Spark" />
-      <item itemvalue="Python.spark_reader" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.py4j" />
-      <item itemvalue="Python.py4j_test" />
-      <item itemvalue="Python.spark_etl" />
+      <item itemvalue="Python.mf" />
+      <item itemvalue="Python.mf_dot" />
+      <item itemvalue="Python.tensorflow_embedding" />
+      <item itemvalue="Python.tensorflow_onehot" />
+      <item itemvalue="Python.tensorflow_embedding (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.spark_etl" />
-        <item itemvalue="Python.py4j_test" />
-        <item itemvalue="Python.py4j" />
-        <item itemvalue="Python.spark_reader" />
+        <item itemvalue="Python.tensorflow_embedding (1)" />
+        <item itemvalue="Python.tensorflow_onehot" />
+        <item itemvalue="Python.tensorflow_embedding" />
+        <item itemvalue="Python.mf_dot" />
+        <item itemvalue="Python.mf" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +757,32 @@
       <workItem from="1596082005125" duration="1930000" />
       <workItem from="1596178048140" duration="7566000" />
       <workItem from="1596187555986" duration="1509000" />
-      <workItem from="1596189261395" duration="874000" />
+      <workItem from="1596189261395" duration="1912000" />
+      <workItem from="1596713431148" duration="620000" />
+      <workItem from="1597047372571" duration="1074000" />
+      <workItem from="1597130050164" duration="9671000" />
+      <workItem from="1597216259639" duration="373000" />
+      <workItem from="1597216902063" duration="2531000" />
+      <workItem from="1597222167937" duration="4643000" />
+      <workItem from="1597240525428" duration="18629000" />
+      <workItem from="1601356566252" duration="1915000" />
+      <workItem from="1601440604145" duration="1235000" />
+      <workItem from="1601462579947" duration="598000" />
+      <workItem from="1603956747538" duration="652000" />
+      <workItem from="1603959643074" duration="1720000" />
+      <workItem from="1603963681888" duration="1230000" />
+      <workItem from="1603965720557" duration="679000" />
+      <workItem from="1603967388632" duration="294000" />
+      <workItem from="1603968146356" duration="1003000" />
+      <workItem from="1604045129966" duration="2376000" />
+      <workItem from="1604385031967" duration="14353000" />
+      <workItem from="1604470981168" duration="13326000" />
+      <workItem from="1604487292842" duration="2361000" />
+      <workItem from="1604539179248" duration="20685000" />
+      <workItem from="1604633742199" duration="32674000" />
+      <workItem from="1606721184308" duration="7993000" />
+      <workItem from="1606899488062" duration="6455000" />
+      <workItem from="1607503753402" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1583554620882</created>
@@ -558,17 +833,24 @@
       <option name="project" value="LOCAL" />
       <updated>1596090078271</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of github.com:sparrowzoo/sparrow-pyalink&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;source/sparrow/feature/binning/yelp_visual.ipynb">
+      <created>1596190306524</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596190306525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76370000" />
+    <option name="totallyTimeSpent" value="226019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45652175" visible="true" weight="0.18759455" />
+      <window_info id="Structure" order="1" sideWeight="0.54347825" side_tool="true" weight="0.295764" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -576,8 +858,8 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2662116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.59215015" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28498295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.051194537" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -585,19 +867,21 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.12627986" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29351535" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5665529" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.6552901" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.022692889" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8613861" visible="true" weight="0.098335855" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.4864865" weight="0.11270802" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="ASM" order="10" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="11" sideWeight="0.13861386" side_tool="true" visible="true" weight="0.098335855" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,24 +939,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/source/sparrow/csv_reader/spark_reader.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/csv_rader.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/csv_rader.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -691,297 +975,504 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>sql.format(**args)</expression-string>
+        <expression-string>print(batch_labels)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sys.path</expression-string>
+        <expression-string>print(batch_features)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sys.path[0]</expression-string>
+        <expression-string>type(batch_features)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sql.format(args)</expression-string>
+        <expression-string>print_tensor(batch_features)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(args)</expression-string>
+        <expression-string>batch_features</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sql.format(args,2)</expression-string>
+        <expression-string>print(dataset.make_one_shot_iterator)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sql.format(1,2)</expression-string>
+        <expression-string>dataset.make_one_shot_iterator</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sql</expression-string>
+        <expression-string>print(dataset.output_shapes)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sql.format(1)</expression-string>
+        <expression-string>dataset.output_shapes</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/etl_template.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/oop_basic/get_type.py">
+    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_print.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/abstract_model.py">
+    <entry file="file://$PROJECT_DIR$/source/samples/basic/the_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/alink/PythonAlink.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/basic/hello.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/basic/System.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/draw/math.py" />
-    <entry file="file://$PROJECT_DIR$/source/sparrow/feature/binning/yelp_visual.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-516756811/builtins.py">
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/embedding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2643">
-          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python/Python37/Lib/xml/dom/expatbuilder.py">
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/pyspark/sql/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="909" selection-start-line="909" selection-end-line="909" />
+        <state relative-caret-position="137">
+          <caret line="756" column="8" selection-start-line="756" selection-start-column="8" selection-end-line="756" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/array_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/singleton/model_registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/xml/dom/minidom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1953" column="4" selection-start-line="1953" selection-start-column="4" selection-end-line="1953" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_if.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/sparrow/csv_reader/flight_date.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/sparrow/csv_reader/spark_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="96">
+          <caret line="4" column="30" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/adult.names">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_for.py">
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/adult.test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/basic/the_string.py">
+    <entry file="file://$PROJECT_DIR$/source/sparrow/csv_reader/panda_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/singleton/model_registry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/samples/basic/do_while.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/recommend_lr_feature.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/xml/dom/minidom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="1955" column="10" lean-forward="true" selection-start-line="1955" selection-start-column="10" selection-end-line="1955" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11160">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/xml_db/spark_etl.py" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/strategy/lr_model.py" />
-    <entry file="file://D:/Python/Python37/Lib/site-packages/py4j/java_gateway.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="2154" lean-forward="true" selection-start-line="2154" selection-end-line="2154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/crosss_feature.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/csv_reader/spark_reader.py" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/fixed.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/binning/quantile.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/log_transform.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/one_hot_encoder.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/feature/two_value.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/draw/line.py" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/alink/PythonAlink.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/cookbook/regressor.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/cookbook/preprocessor.ipynb" />
-    <entry file="file://$PROJECT_DIR$/sparrow/source/sparrow/cookbook/housing.ipynb" />
-    <entry file="file://$PROJECT_DIR$/document/spark-submit.sh" />
-    <entry file="file://$PROJECT_DIR$/source/sparrow/tools/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="25" lean-forward="true" selection-start-line="18" selection-end-line="25" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/tools/py4j_test.py" />
-    <entry file="file://D:/Python/Python37/Lib/unittest/runner.py">
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="24">
+          <caret line="662" selection-start-line="662" selection-end-line="662" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow/source/main.py" />
-    <entry file="file://D:/Python/Python37/Lib/site-packages/pyspark/sql/session.py">
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="635" column="8" selection-start-line="635" selection-start-column="8" selection-end-line="635" selection-end-column="8" />
+        <state relative-caret-position="74">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/spark-3.0.0-bin-hadoop2.7/conf/hive-site.xml" />
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tfTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/data_hive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41760">
-          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/strategy/lr_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="96">
+          <caret line="9" selection-start-line="7" selection-end-line="9" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/document/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/spark_etl.py">
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow_estimator/python/estimator/canned/linear.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-264">
+          <caret line="958" column="6" selection-start-line="958" selection-start-column="6" selection-end-line="958" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sparrow/xml_db/pyspark_config.py">
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/matrix_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="168">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/document/hive-site.xml">
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/data/ops/readers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-177056033/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="265" column="4" selection-start-line="265" selection-start-column="4" selection-end-line="265" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/samples/advance/do_iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/keras/engine/base_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="2142" column="9" selection-start-line="2142" selection-start-column="9" selection-end-line="2142" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="2865" column="41" selection-start-line="2865" selection-start-column="41" selection-end-line="2865" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="4561" column="42" selection-start-line="4561" selection-start-column="42" selection-end-line="4561" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow_estimator/python/estimator/estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="1019" column="51" selection-start-line="1019" selection-start-column="51" selection-end-line="1019" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tf_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/adult_simple.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="9" column="120" selection-start-line="9" selection-start-column="120" selection-end-line="9" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/csv_rader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="30" column="21" selection-start-line="22" selection-start-column="4" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/logs/events.out.tfevents.1604633354.DESKTOP-G6SG8VH" />
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result/wide_deep_shuffle_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep_result/wide_deep_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" selection-start-line="33" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/mf/mf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="45" column="27" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/mf/mf_dot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/feature/crosss_feature.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tools/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/adult_simple.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="89" lean-forward="true" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/adult.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/range_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/document/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="331">
-            <caret line="151" lean-forward="true" selection-start-line="142" selection-end-line="151" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/tensor_reader/tensor_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/_api/v1/feature_column/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="e#182#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/wide_deep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3504">
+          <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_onehot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/MC/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/feature_column/feature_column_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18672">
+          <caret line="822" column="34" selection-start-line="822" selection-start-column="34" selection-end-line="822" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sparrow/tensorflow/feature/tensorflow_embedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.13.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sparrow-pyalink</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

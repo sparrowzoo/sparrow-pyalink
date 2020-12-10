@@ -27,7 +27,8 @@ class Pyconfig(object):
             ("spark.executor.memory", self.SPARK_EXECUTOR_MEMORY),
             ("spark.master", self.SPARK_MASTER),
             ("spark.executor.cores", self.SPARK_EXECUTOR_CORES),
-            ("spark.executor.instances", self.SPARK_EXECUTOR_INSTANCES)
+            ("spark.executor.instances", self.SPARK_EXECUTOR_INSTANCES),
+            ("spark.debug.maxToStringFields", "10000")
         )
         conf.setAll(config)
         if self.ENABLE_HIVE_SUPPORT:
