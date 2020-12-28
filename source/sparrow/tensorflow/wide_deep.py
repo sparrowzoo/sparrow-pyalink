@@ -197,7 +197,7 @@ def input_fn(data_file, num_epochs, shuffle, batch_size):
 def build_estimator(model_dir, model_type):
     """Build an estimator appropriate for the given model type."""
     wide_columns, deep_columns = build_model_columns()
-    hidden_units = [100, 50]
+    hidden_units = [100, 50,32]
 
     # Create a tf.estimator.RunConfig to ensure the model is run on CPU, which
     # trains faster than GPU for this model.
